@@ -9,3 +9,6 @@ class Test(object):
 
 test = Test()
 test.func()
+'''
+test 
+'''
