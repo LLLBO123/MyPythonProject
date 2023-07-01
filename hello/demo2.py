@@ -7,7 +7,7 @@ adress_num = []
 headers = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3"
 }
-for page in range(1, 71):
+for page in range(1, 2):
     url = f"https://xc8866.cc/forum-46-{page}.htm?orderby=lastpid&digest=0"
     response = requests.get(url, headers=headers)
     soup = BeautifulSoup(response.text, "html.parser")
