@@ -18,7 +18,7 @@ for page in range(1, 2):
         adress_num.append(aa)
 
 print(adress_num)
-with open("demo11.txt", "a") as file:
+with open("demo11222.txt", "a") as file:
     for i in adress_num:
         url1 = f"https://xc8866.cc/thread-{i}.htm"
         response1 = requests.get(url1, headers)
